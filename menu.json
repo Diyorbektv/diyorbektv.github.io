@@ -2,10 +2,10 @@
   "headline": "Diyorbek TV",
   "menu": [
     {
-      "label": "Ўзбекистон каналлари",
+      "label": "Ўзбекистон каналлари (Авто)",
       "icon": "live-tv",
       "data": {
-        "type": "pages",
+        "type": "list",
         "template": {
           "type": "separate",
           "layout": "0,0,3,3",
@@ -13,106 +13,8 @@
         },
         "items": [
           {
-            "title": "O'zbekiston",
-            "action": "video:https://stream8.cinerama.uz/1001/tracks-v1a1/playlist.m3u8"
-          },
-          {
-            "title": "O'zbekiston 24",
-            "action": "video:https://cinerama.uz"
-          },
-          {
-            "title": "MUZ TV UZ",
-            "action": "video:https://cinerama.uz"
-          }
-        ]
-      }
-    },
-    {
-      "label": "Қирғизистон каналлари",
-      "icon": "tv",
-      "data": {
-        "type": "pages",
-        "template": {
-          "type": "separate",
-          "layout": "0,0,3,3",
-          "color": "msx-glass"
-        },
-        "items": [
-          {
-            "title": "УТРК (КТРК)",
-            "action": "video:https://ktrk.kg"
-          },
-          {
-            "title": "Ала-Тоо 24",
-            "action": "video:https://ktrk.kg"
-          },
-          {
-            "title": "УТРК Музыка",
-            "action": "video:https://ktrk.kg"
-          },
-          {
-            "title": "УТРК Спорт",
-            "action": "video:https://ktrk.kg"
-          }
-        ]
-      }
-    },
-    {
-      "label": "Қозоғистон каналлари",
-      "icon": "hd",
-      "data": {
-        "type": "pages",
-        "template": {
-          "type": "separate",
-          "layout": "0,0,3,3",
-          "color": "msx-glass"
-        },
-        "items": [
-          {
-            "title": "Qazaqstan HD",
-            "action": "video:https://cdnvideo.ru"
-          },
-          {
-            "title": "24KZ (Хабар 24)",
-            "action": "video:https://cdnvideo.ru"
-          },
-          {
-            "title": "Qazsport HD",
-            "action": "video:https://cdnvideo.ru"
-          },
-          {
-            "title": "Balapan",
-            "action": "video:https://cdnvideo.ru"
-          }
-        ]
-      }
-    },
-    {
-      "label": "Россия каналлари",
-      "icon": "public",
-      "data": {
-        "type": "pages",
-        "template": {
-          "type": "separate",
-          "layout": "0,0,3,3",
-          "color": "msx-glass"
-        },
-        "items": [
-          {
-            "title": "Россия 24 HD",
-            "action": "video:https://smotrim.ru"
-          },
-          {
-            "title": "РТР-Планета",
-            "action": "video:https://smotrim.ru"
-          },
-          {
-            "title": "Москва 24",
-            "action": "video:https://m24.ru"
-          },
-          {
-            "title": "МИР 24",
-            "action": "video:https://cdnvideo.ru"
+            "title": "Барча ўзбек каналлари",
+            "action": "playlist:https://iptv-org.github.io/iptv/countries/uz.m3u"
           }
         ]
       }
