@@ -2,8 +2,8 @@
   "headline": "Diyorbek TV",
   "menu": [
     {
-      "label": "Ўзбекистон каналлари",
-      "icon": "live-tv",
+      "label": "Танланган каналлар",
+      "icon": "star",
       "data": {
         "type": "pages",
         "template": {
@@ -18,22 +18,28 @@
           },
           {
             "title": "O'zbekiston 24",
-            "action": "video:https://stream8.cinerama.uz/1011/tracks-v1a1/playlist.m3u8"
+            "action": "video:https://cinerama.uz"
           },
           {
             "title": "MUZ TV UZ",
             "action": "video:https://cinerama.uz"
-          },
-          {
-            "title": "Cinema TV",
-            "action": "video:https://stream8.cinerama.uz/1227/tracks-v1a1/mono.m3u8"
           }
         ]
       }
     },
     {
-      "label": "Жаҳон каналлари",
-      "icon": "public",
+      "label": "Ўзбекистон (Авто)",
+      "icon": "live-tv",
+      "data": "https://benzac.de"
+    },
+    {
+      "label": "Россия каналлари",
+      "icon": "tv",
+      "data": "https://benzac.de"
+    },
+    {
+      "label": "Туркия каналлари",
+      "icon": "movie",
       "data": "https://benzac.de"
     }
   ]
