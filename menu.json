@@ -1,0 +1,34 @@
+{
+  "headline": "Diyorbek TV",
+  "menu": [
+    {
+      "label": "Телеканаллар",
+      "data": {
+        "type": "pages",
+        "template": {
+          "type": "separate",
+          "layout": "0,0,3,3",
+          "color": "msx-glass"
+        },
+        "items": [
+          {
+            "title": "O'zbekiston 24",
+            "action": "video:https://uztv-stream.uz"
+          },
+          {
+            "title": "Sevimli TV",
+            "action": "video:https://uztv-stream.uz"
+          },
+          {
+            "title": "Zo'r TV",
+            "action": "video:https://uztv-stream.uz"
+          },
+          {
+            "title": "MY5",
+            "action": "video:https://uztv-stream.uz"
+          }
+        ]
+      }
+    }
+  ]
+}
