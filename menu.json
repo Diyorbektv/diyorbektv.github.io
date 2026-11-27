@@ -2,8 +2,8 @@
   "headline": "Diyorbek TV",
   "menu": [
     {
-      "label": "Танланган каналлар",
-      "icon": "star",
+      "label": "Ўзбекистон каналлари",
+      "icon": "live-tv",
       "data": {
         "type": "pages",
         "template": {
@@ -28,19 +28,48 @@
       }
     },
     {
-      "label": "Ўзбекистон (Авто)",
-      "icon": "live-tv",
-      "data": "https://benzac.de"
-    },
-    {
       "label": "Россия каналлари",
       "icon": "tv",
-      "data": "https://benzac.de"
+      "data": {
+        "type": "pages",
+        "template": {
+          "type": "separate",
+          "layout": "0,0,3,3",
+          "color": "msx-glass"
+        },
+        "items": [
+          {
+            "title": "Россия 24 HD",
+            "action": "video:https://live.smotrim.ru/vgtrk/0/russia24-hd/index.m3u8"
+          },
+          {
+            "title": "Song TV Russia",
+            "action": "video:https://songtv.hls.iptvdc.com/web-russia/playlist.m3u8"
+          }
+        ]
+      }
     },
     {
       "label": "Туркия каналлари",
       "icon": "movie",
-      "data": "https://benzac.de"
+      "data": {
+        "type": "pages",
+        "template": {
+          "type": "separate",
+          "layout": "0,0,3,3",
+          "color": "msx-glass"
+        },
+        "items": [
+          {
+            "title": "TRT 1 HD",
+            "action": "video:https://tv-trt1.medya.trt.com.tr/master.m3u8"
+          },
+          {
+            "title": "TRT 1 (Захира)",
+            "action": "video:https://trt.daioncdn.net/trt-1/master.m3u8?app=web"
+          }
+        ]
+      }
     }
   ]
 }
