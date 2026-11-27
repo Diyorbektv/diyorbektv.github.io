@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diyorbek TV — Онлайн ТВ</title>
+    <script src="https://jsdelivr.net"></script>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #0f0f0f; color: #fff; }
+        header { background: #181818; padding: 15px; text-align: center; border-bottom: 1px solid #2a2a2a; }
+        header h1 { font-size: 20px; color: #e50914; letter-spacing: 1px; }
+        .player-container { position: sticky; top: 0; z-index: 100; background: #000; width: 100%; max-width: 900px; margin: 0 auto; }
+        video { width: 100%; display: block; max-height: 55vh; background: #000; }
+        .status-bar { background: #1e1e1e; padding: 8px 15px; font-size: 13px; color: #aaa; display: flex; justify-content: space-between; }
+        .content { max-width: 900px; margin: 0 auto; padding: 15px; }
+        .search-box { width: 100%; padding: 12px 15px; border-radius: 8px; border: 1px solid #333; background: #1c1c1c; color: #fff; font-size: 15px; margin-bottom: 15px; outline: none; }
+        .search-box:focus { border-color: #e50914; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 10px; }
+        .card { background: #1c1c1c; border: 1px solid #2c2c2c; border-radius: 10px; padding: 15px 10px; text-align: center; cursor: pointer; transition: 0.2s; font-weight: 500; font-size: 14px; }
+        .card:hover { background: #2a2a2a; transform: translateY(-2px); }
+        .card.active { background: #e50914; border-color: #ff2a35; color: #fff; font-weight: bold; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>DIYORBEK TV</h1>
+    </header>
+
+    <div class="player-container">
+        <video id="video" controls playsinline></video>
+        <div class="status-bar">
+            <span id="current-channel">Каналлар юкланмоқда...</span>
+            <span id="stream-status">Кутинг</span>
+        </div>
+    </div>
+
+    <div class="content">
+        <input type="text" id="search" class="search-box" placeholder="Канал номини қидиринг..." onkeyup="filterChannels()">
+        <div class="grid" id="channel-list"></div>
+    </div>
+
+    <script>
+        let channels = [
+            { name: "Тест Эфир (HD)", url: "https://mux.dev" }
+        ];
+
+        const video = document.getElementById('video');
+        const listEl = document.getElementById('channel-list');
+        const currentEl = document.getElementById('current-channel');
+        const statusEl = document.getElementById('stream-status');
+        let hls = null;
+
+        async function loadUzbekChannels() {
+            try {
+                const res = await fetch('https://github.io');
+                const text = await res.text();
+                const lines = text.split('\n');
+                let currentName = '';
+
+                for (let line of lines) {
+                    line = line.trim();
+                    if (line.startsWith('#EXTINF:')) {
+                        const parts = line.split(',');
+                        currentName = parts[parts.length - 1].trim();
+                    } else if (line.startsWith('https://') && currentName) {
+                        channels.push({ name: currentName, url: line });
+                        currentName = '';
+                    }
+                }
+            } catch (e) {
+                console.log('Рўйхат юкланмади:', e);
+            }
+            renderChannels(channels);
+            if (channels.length > 0) {
+                selectChannel(channels[0], listEl.firstChild);
+            }
+        }
+
+        function renderChannels(items) {
+            listEl.innerHTML = '';
+            items.forEach((ch) => {
+                const div = document.createElement('div');
+                div.className = 'card';
+                div.textContent = ch.name;
+                div.onclick = () => selectChannel(ch, div);
+                listEl.appendChild(div);
+            });
+        }
+
+        function selectChannel(channel, cardEl) {
+            document.querySelectorAll('.card').forEach(c => c.classList.remove('active'));
+            if (cardEl) cardEl.classList.add('active');
+
+            currentEl.textContent = channel.name;
+            statusEl.textContent = "Юкланмоқда...";
+
+            if (hls) { hls.destroy(); }
+
+            if (Hls.isSupported()) {
+                hls = new Hls();
+                hls.loadSource(channel.url);
+                hls.attachMedia(video);
+                hls.on(Hls.Events.MANIFEST_PARSED, () => {
+                    statusEl.textContent = "Жонли эфир";
+                    video.play().catch(() => {});
+                });
+                hls.on(Hls.Events.ERROR, (event, data) => {
+                    if (data.fatal) statusEl.textContent = "Эфир узилган ёки блокланган";
+                });
+            } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
+                video.src = channel.url;
+                video.addEventListener('loadedmetadata', () => {
+                    statusEl.textContent = "Жонли эфир";
+                    video.play().catch(() => {});
+                });
+            }
+        }
+
+        function filterChannels() {
+            const q = document.getElementById('search').value.toLowerCase();
+            const filtered = channels.filter(c => c.name.toLowerCase().includes(q));
+            renderChannels(filtered);
+        }
+
+        loadUzbekChannels();
+    </script>
+
+</body>
+</html>
