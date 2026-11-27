@@ -1,0 +1,42 @@
+{
+  "headline": "Diyorbek TV",
+  "template": {
+    "type": "separate",
+    "layout": "0,0,2,2",
+    "icon": "live-tv"
+  },
+  "items": [
+    {
+      "title": "Тест Эфир (HD)",
+      "action": "video:https://mux.dev"
+    },
+    {
+      "title": "O'zbekiston",
+      "action": "video:https://cinerama.uz"
+    },
+    {
+      "title": "Yoshlar",
+      "action": "video:https://cinerama.uz"
+    },
+    {
+      "title": "Milliy TV",
+      "action": "video:https://cinerama.uz"
+    },
+    {
+      "title": "Zo'r TV",
+      "action": "video:https://cinerama.uz"
+    },
+    {
+      "title": "Sevimli TV",
+      "action": "video:https://cinerama.uz"
+    },
+    {
+      "title": "Sport UZ",
+      "action": "video:https://cinerama.uz"
+    },
+    {
+      "title": "Барча каналлар (Веб-саҳифа)",
+      "action": "link:https://github.io"
+    }
+  ]
+}
