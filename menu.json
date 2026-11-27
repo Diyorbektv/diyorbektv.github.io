@@ -2,22 +2,24 @@
   "headline": "Diyorbek TV",
   "menu": [
     {
-      "label": "Ўзбекистон каналлари (Авто)",
+      "label": "Ўзбекистон каналлари",
       "icon": "live-tv",
-      "data": {
-        "type": "list",
-        "template": {
-          "type": "separate",
-          "layout": "0,0,3,3",
-          "color": "msx-glass"
-        },
-        "items": [
-          {
-            "title": "Барча ўзбек каналлари",
-            "action": "playlist:https://iptv-org.github.io/iptv/countries/uz.m3u"
-          }
-        ]
-      }
+      "data": "http://benzac.de"
+    },
+    {
+      "label": "Кино ва сериаллар",
+      "icon": "movie",
+      "data": "http://benzac.de"
+    },
+    {
+      "label": "Спорт каналлари",
+      "icon": "sports-soccer",
+      "data": "http://benzac.de"
+    },
+    {
+      "label": "Болалар каналлари",
+      "icon": "child-care",
+      "data": "http://benzac.de"
     }
   ]
 }
