@@ -17,39 +17,24 @@
             "action": "video:https://cinerama.uz"
           },
           {
+            "title": "O'zbekiston 24",
+            "action": "video:https://stream8.cinerama.uz/1011/tracks-v1a1/playlist.m3u8"
+          },
+          {
             "title": "MUZ TV UZ",
             "action": "video:https://cinerama.uz"
           },
           {
-            "title": "Sevimli TV",
-            "action": "video:https://cinerama.uz"
-          },
-          {
-            "title": "O'zbekiston 24",
-            "action": "video:https://cinerama.uz"
-          },
-          {
-            "title": "O'zbekiston Tarixi",
-            "action": "video:https://cinerama.uz"
-          },
-          {
-            "title": "Renessans TV",
-            "action": "video:https://cinerama.uz"
-          },
-          {
-            "title": "Nurafshon TV",
-            "action": "video:https://cinerama.uz"
-          },
-          {
-            "title": "Ruxsor TV",
-            "action": "video:https://cinerama.uz"
-          },
-          {
-            "title": "NTV UZ",
-            "action": "video:https://cinerama.uz"
+            "title": "Cinema TV",
+            "action": "video:https://stream8.cinerama.uz/1227/tracks-v1a1/mono.m3u8"
           }
         ]
       }
+    },
+    {
+      "label": "Жаҳон каналлари",
+      "icon": "public",
+      "data": "https://benzac.de"
     }
   ]
 }
