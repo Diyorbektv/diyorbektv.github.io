@@ -2,8 +2,23 @@
   "headline": "Diyorbek TV",
   "menu": [
     {
-      "label": "Ўзбекистон каналлари",
+      "label": "Кино ва Сериаллар (Lampa)",
+      "icon": "movie",
+      "data": "http://lampa.mx"
+    },
+    {
+      "label": "ТВ ва Кино (Atodo)",
       "icon": "live-tv",
+      "data": "http://atodo.fun"
+    },
+    {
+      "label": "Универсал портал (Vokino)",
+      "icon": "theaters",
+      "data": "http://vokino.tv"
+    },
+    {
+      "label": "Ўзбекистон ТВ (Ишчи)",
+      "icon": "star",
       "data": {
         "type": "pages",
         "template": {
@@ -17,56 +32,8 @@
             "action": "video:https://cinerama.uz"
           },
           {
-            "title": "O'zbekiston 24",
-            "action": "video:https://cinerama.uz"
-          },
-          {
             "title": "MUZ TV UZ",
             "action": "video:https://cinerama.uz"
-          }
-        ]
-      }
-    },
-    {
-      "label": "Россия каналлари",
-      "icon": "tv",
-      "data": {
-        "type": "pages",
-        "template": {
-          "type": "separate",
-          "layout": "0,0,3,3",
-          "color": "msx-glass"
-        },
-        "items": [
-          {
-            "title": "Россия 24 HD",
-            "action": "video:https://live.smotrim.ru/vgtrk/0/russia24-hd/index.m3u8"
-          },
-          {
-            "title": "Song TV Russia",
-            "action": "video:https://songtv.hls.iptvdc.com/web-russia/playlist.m3u8"
-          }
-        ]
-      }
-    },
-    {
-      "label": "Туркия каналлари",
-      "icon": "movie",
-      "data": {
-        "type": "pages",
-        "template": {
-          "type": "separate",
-          "layout": "0,0,3,3",
-          "color": "msx-glass"
-        },
-        "items": [
-          {
-            "title": "TRT 1 HD",
-            "action": "video:https://tv-trt1.medya.trt.com.tr/master.m3u8"
-          },
-          {
-            "title": "TRT 1 (Захира)",
-            "action": "video:https://trt.daioncdn.net/trt-1/master.m3u8?app=web"
           }
         ]
       }
