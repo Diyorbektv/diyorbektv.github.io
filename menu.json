@@ -12,20 +12,12 @@
         },
         "items": [
           {
-            "title": "O'zbekiston 24",
-            "action": "video:https://uztv-stream.uz"
+            "title": "O'zbekiston",
+            "action": "video:https://stream8.cinerama.uz/1001/tracks-v1a1/playlist.m3u8"
           },
           {
-            "title": "Sevimli TV",
-            "action": "video:https://uztv-stream.uz"
-          },
-          {
-            "title": "Zo'r TV",
-            "action": "video:https://uztv-stream.uz"
-          },
-          {
-            "title": "MY5",
-            "action": "video:https://uztv-stream.uz"
+            "title": "MUZ TV UZ",
+            "action": "video:https://stream8.cinerama.uz/1063/tracks-v1a1/mono.m3u8"
           }
         ]
       }
