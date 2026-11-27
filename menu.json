@@ -2,8 +2,8 @@
   "headline": "Diyorbek TV",
   "menu": [
     {
-      "label": "Танланган каналлар",
-      "icon": "star",
+      "label": "Ўзбекистон каналлари",
+      "icon": "live-tv",
       "data": {
         "type": "pages",
         "template": {
@@ -17,16 +17,75 @@
             "action": "video:https://cinerama.uz"
           },
           {
+            "title": "O'zbekiston 24",
+            "action": "video:https://stream8.cinerama.uz/1011/tracks-v1a1/playlist.m3u8"
+          },
+          {
+            "title": "Yoshlar",
+            "action": "video:https://cinerama.uz"
+          },
+          {
+            "title": "Toshkent",
+            "action": "video:https://cinerama.uz"
+          },
+          {
+            "title": "Sport UZ",
+            "action": "video:https://cinerama.uz"
+          },
+          {
+            "title": "Sevimli TV",
+            "action": "video:https://stream1.cinerama.uz/1017/tracks-v1a1/mono.m3u8"
+          },
+          {
+            "title": "O'zbekiston Tarixi",
+            "action": "video:https://stream1.cinerama.uz/1209/tracks-v1a1/mono.m3u8"
+          },
+          {
+            "title": "Renessans TV",
+            "action": "video:https://stream1.cinerama.uz/1221/tracks-v1a1/mono.m3u8"
+          },
+          {
+            "title": "Nurafshon TV",
+            "action": "video:https://stream1.cinerama.uz/1220/tracks-v1a1/mono.m3u8"
+          },
+          {
+            "title": "Ruxsor TV",
+            "action": "video:https://stream1.cinerama.uz/1260/tracks-v1a1/mono.m3u8"
+          },
+          {
+            "title": "NTV UZ",
+            "action": "video:https://stream1.cinerama.uz/1284/tracks-v1a1/mono.m3u8"
+          },
+          {
             "title": "MUZ TV UZ",
+            "action": "video:https://cinerama.uz"
+          },
+          {
+            "title": "Madaniyat va Ma'rifat",
+            "action": "video:https://cinerama.uz"
+          },
+          {
+            "title": "Dunyo Bo'ylab",
+            "action": "video:https://cinerama.uz"
+          },
+          {
+            "title": "Bolajon",
+            "action": "video:https://cinerama.uz"
+          },
+          {
+            "title": "Navo",
+            "action": "video:https://cinerama.uz"
+          },
+          {
+            "title": "Kinoteatr",
+            "action": "video:https://cinerama.uz"
+          },
+          {
+            "title": "Mahalla",
             "action": "video:https://cinerama.uz"
           }
         ]
       }
-    },
-    {
-      "label": "Ўзбекистон каналлари",
-      "icon": "live-tv",
-      "data": "https://benzac.de"
     }
   ]
 }
