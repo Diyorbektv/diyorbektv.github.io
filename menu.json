@@ -4,11 +4,6 @@
     {
       "label": "Ўзбекистон каналлари",
       "icon": "live-tv",
-      "data": "https://iptv-org.github.io/iptv/countries/uz.m3u"
-    },
-    {
-      "label": "Танланган каналлар",
-      "icon": "star",
       "data": {
         "type": "pages",
         "template": {
@@ -22,15 +17,60 @@
             "action": "video:https://stream8.cinerama.uz/1001/tracks-v1a1/playlist.m3u8"
           },
           {
+            "title": "Yoshlar",
+            "action": "video:https://cinerama.uz"
+          },
+          {
+            "title": "Toshkent",
+            "action": "video:https://cinerama.uz"
+          },
+          {
+            "title": "Sport UZ",
+            "action": "video:https://cinerama.uz"
+          },
+          {
+            "title": "Madaniyat va Ma'rifat",
+            "action": "video:https://cinerama.uz"
+          },
+          {
+            "title": "Dunyo Bo'ylab",
+            "action": "video:https://cinerama.uz"
+          },
+          {
+            "title": "Bolajon",
+            "action": "video:https://cinerama.uz"
+          },
+          {
+            "title": "Navo",
+            "action": "video:https://cinerama.uz"
+          },
+          {
+            "title": "Kinoteatr",
+            "action": "video:https://cinerama.uz"
+          },
+          {
+            "title": "Mahalla",
+            "action": "video:https://cinerama.uz"
+          },
+          {
             "title": "O'zbekiston 24",
-            "action": "video:https://stream8.cinerama.uz/1011/tracks-v1a1/playlist.m3u8"
+            "action": "video:https://cinerama.uz"
+          },
+          {
+            "title": "O'zbekiston Tarixi",
+            "action": "video:https://cinerama.uz"
           },
           {
             "title": "MUZ TV UZ",
-            "action": "video:https://stream8.cinerama.uz/1063/tracks-v1a1/mono.m3u8"
+            "action": "video:https://cinerama.uz"
           }
         ]
       }
+    },
+    {
+      "label": "Барчаси (Авто-рўйхат)",
+      "icon": "list",
+      "data": "http://benzac.de"
     }
   ]
 }
