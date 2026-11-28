@@ -2,34 +2,46 @@
   "headline": "Diyorbek TV",
   "menu": [
     {
-      "label": "Ўзбекистон (Авто-янгиланиш)",
+      "label": "Каналлар тўплами (1000+)",
       "icon": "live-tv",
-      "data": "playlist:https://github.io"
-    },
-    {
-      "label": "Россия каналлари (100+)",
-      "icon": "tv",
-      "data": "playlist:https://github.io"
-    },
-    {
-      "label": "Кино ва Сериаллар (100+)",
-      "icon": "movie",
-      "data": "playlist:https://github.io"
-    },
-    {
-      "label": "Спорт каналлари (100+)",
-      "icon": "sports-soccer",
-      "data": "playlist:https://github.io"
-    },
-    {
-      "label": "Болалар каналлари",
-      "icon": "child-care",
-      "data": "playlist:https://github.io"
-    },
-    {
-      "label": "Мусиқа каналлари",
-      "icon": "music-note",
-      "data": "playlist:https://github.io"
+      "data": {
+        "type": "list",
+        "template": {
+          "type": "separate",
+          "layout": "0,0,3,3",
+          "color": "msx-glass"
+        },
+        "items": [
+          {
+            "title": "Ўзбекистон каналлари",
+            "action": "playlist:https://github.io"
+          },
+          {
+            "title": "Россия каналлари (100+)",
+            "action": "playlist:https://github.io"
+          },
+          {
+            "title": "Кино ва Сериаллар (100+)",
+            "action": "playlist:https://github.io"
+          },
+          {
+            "title": "Спорт каналлари (100+)",
+            "action": "playlist:https://github.io"
+          },
+          {
+            "title": "Болалар каналлари",
+            "action": "playlist:https://github.io"
+          },
+          {
+            "title": "Мусиқа каналлари",
+            "action": "playlist:https://github.io"
+          },
+          {
+            "title": "Жаҳон каналлари (1000+)",
+            "action": "playlist:https://github.io"
+          }
+        ]
+      }
     }
   ]
 }
