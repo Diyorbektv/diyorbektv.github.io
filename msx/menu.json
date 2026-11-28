@@ -13,80 +13,24 @@
         },
         "items": [
           {
-            "title": "O'zbekiston",
-            "action": "video:https://cinerama.uz"
+            "title": "O'zbekiston (1-манба)",
+            "action": "video:http://gohoski.fvds.ru:3000/mediabay/140/playlist.m3u8"
           },
           {
-            "title": "Yoshlar",
-            "action": "video:https://cinerama.uz"
+            "title": "Toshkent (HLS)",
+            "action": "video:https://stream8.cinerama.uz/1003/tracks-v1a1/playlist.m3u8"
           },
           {
-            "title": "Toshkent",
-            "action": "video:https://cinerama.uz"
+            "title": "Euronews Русский",
+            "action": "video:https://wurl.tv"
           },
           {
-            "title": "Sport UZ",
-            "action": "video:https://cinerama.uz"
+            "title": "RT Д (Ҳужжатли фильмлар)",
+            "action": "video:https://rttv.com"
           },
           {
-            "title": "Madaniyat va Ma'rifat",
-            "action": "video:https://cinerama.uz"
-          },
-          {
-            "title": "Dunyo Bo'ylab",
-            "action": "video:https://cinerama.uz"
-          },
-          {
-            "title": "Bolajon",
-            "action": "video:https://cinerama.uz"
-          },
-          {
-            "title": "Navo",
-            "action": "video:https://cinerama.uz"
-          },
-          {
-            "title": "Kinoteatr",
-            "action": "video:https://cinerama.uz"
-          },
-          {
-            "title": "O'zbekiston 24",
-            "action": "video:https://cinerama.uz"
-          },
-          {
-            "title": "Mahalla",
-            "action": "video:https://cinerama.uz"
-          },
-          {
-            "title": "Oilaviy",
-            "action": "video:https://cinerama.uz"
-          },
-          {
-            "title": "UzReport TV",
-            "action": "video:https://cinerama.uz"
-          },
-          {
-            "title": "FTV",
-            "action": "video:https://cinerama.uz"
-          },
-          {
-            "title": "Zo'r TV",
-            "action": "video:https://cinerama.uz"
-          },
-          {
-            "title": "Sevimli TV",
-            "action": "video:https://cinerama.uz"
-          },
-          {
-            "title": "Milliy TV",
-            "action": "video:https://cinerama.uz"
-          },
-          {
-            "title": "MY5 (Mening Yurtim)",
-            "action": "video:https://cinerama.uz"
-          },
-          {
-            "title": "Renessans TV",
-            "action": "video:https://cinerama.uz"
+            "title": "Red Bull TV (Спорт)",
+            "action": "video:https://akamaized.net"
           }
         ]
       }
