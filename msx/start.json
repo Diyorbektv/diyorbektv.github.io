@@ -1,5 +1,5 @@
 {
   "name": "Diyorbek TV",
   "version": "1.0.0",
-  "parameter": "menu:http://ott-play.com/f/msx.json"
+  "parameter": "content:http://lampa.mx"
 }
