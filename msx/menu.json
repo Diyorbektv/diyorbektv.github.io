@@ -1,5 +1,5 @@
 {
-  "headline": "Diyorbek TV",
+  "headline": "Diyorbek TV (1000+ Канал)",
   "menu": [
     {
       "label": "Ўзбекистон каналлари",
@@ -14,86 +14,33 @@
         "items": [
           {
             "title": "O'zbekiston",
-            "action": "video:https://stream8.cinerama.uz/1001/tracks-v1a1/playlist.m3u8"
-          },
-          {
-            "title": "Yoshlar",
             "action": "video:https://cinerama.uz"
           },
           {
             "title": "Toshkent",
-            "action": "video:https://cinerama.uz"
-          },
-          {
-            "title": "Sport UZ",
-            "action": "video:https://cinerama.uz"
-          },
-          {
-            "title": "Madaniyat va Ma'rifat",
-            "action": "video:https://cinerama.uz"
-          },
-          {
-            "title": "Dunyo Bo'ylab",
-            "action": "video:https://cinerama.uz"
-          },
-          {
-            "title": "Bolajon",
-            "action": "video:https://cinerama.uz"
-          },
-          {
-            "title": "Navo",
-            "action": "video:https://cinerama.uz"
-          },
-          {
-            "title": "Kinoteatr",
-            "action": "video:https://cinerama.uz"
-          },
-          {
-            "title": "O'zbekiston 24",
-            "action": "video:https://cinerama.uz"
-          },
-          {
-            "title": "Mahalla",
-            "action": "video:https://cinerama.uz"
-          },
-          {
-            "title": "Oilaviy",
-            "action": "video:https://cinerama.uz"
-          },
-          {
-            "title": "UzReport TV",
-            "action": "video:https://cinerama.uz"
-          },
-          {
-            "title": "FTV",
-            "action": "video:https://cinerama.uz"
-          },
-          {
-            "title": "Zo'r TV",
-            "action": "video:https://cinerama.uz"
-          },
-          {
-            "title": "Sevimli TV",
-            "action": "video:https://cinerama.uz"
-          },
-          {
-            "title": "Milliy TV",
-            "action": "video:https://cinerama.uz"
-          },
-          {
-            "title": "MY5 (Mening Yurtim)",
-            "action": "video:https://cinerama.uz"
-          },
-          {
-            "title": "Renessans TV",
             "action": "video:https://cinerama.uz"
           }
         ]
       }
     },
     {
-      "label": "Маҳаллий каналлар",
-      "icon": "place",
+      "label": "1000+ ТВ Каналлар (VPlay)",
+      "icon": "tv",
+      "data": "http://vplay.one"
+    },
+    {
+      "label": "Бепул ТВ ва Кино (Atodo)",
+      "icon": "movie",
+      "data": "http://atodo.xyz"
+    },
+    {
+      "label": "Жаҳон ТВ (Lampa / MSX)",
+      "icon": "public",
+      "data": "http://msxplayer.ru"
+    },
+    {
+      "label": "Тезкор Янгиликлар ва Мусиқа",
+      "icon": "music-note",
       "data": {
         "type": "list",
         "template": {
@@ -103,52 +50,28 @@
         },
         "items": [
           {
-            "title": "Jizzax TV",
-            "action": "video:https://cinerama.uz"
+            "title": "Euronews Русский",
+            "action": "video:https://wurl.tv"
           },
           {
-            "title": "Namangan TV",
-            "action": "video:https://cinerama.uz"
+            "title": "МИР ТВ (Кино ва сериаллар)",
+            "action": "video:https://cdnvideo.ru"
           },
           {
-            "title": "Farg'ona TV",
-            "action": "video:https://cinerama.uz"
+            "title": "МИР 24",
+            "action": "video:https://cdnvideo.ru"
           },
           {
-            "title": "Andijon TV",
-            "action": "video:https://cinerama.uz"
+            "title": "Red Bull TV (Спорт)",
+            "action": "video:https://akamaized.net"
           },
           {
-            "title": "Samarqand TV",
-            "action": "video:https://cinerama.uz"
+            "title": "Bridge TV (Мусиқа)",
+            "action": "video:https://cdnvideo.ru"
           },
           {
-            "title": "Buxoro TV",
-            "action": "video:https://cinerama.uz"
-          },
-          {
-            "title": "Xorazm TV",
-            "action": "video:https://cinerama.uz"
-          },
-          {
-            "title": "Qashqadaryo TV",
-            "action": "video:https://cinerama.uz"
-          },
-          {
-            "title": "Surxondaryo TV",
-            "action": "video:https://cinerama.uz"
-          },
-          {
-            "title": "Navoiy TV",
-            "action": "video:https://cinerama.uz"
-          },
-          {
-            "title": "Sirdaryo TV",
-            "action": "video:https://cinerama.uz"
-          },
-          {
-            "title": "Qoraqalpog'iston TV",
-            "action": "video:https://cinerama.uz"
+            "title": "Bridge TV Русский Хит",
+            "action": "video:https://cdnvideo.ru"
           }
         ]
       }
