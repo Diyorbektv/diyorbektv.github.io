@@ -1,5 +1,5 @@
 {
-  "headline": "Diyorbek TV (1000+ Канал)",
+  "headline": "Diyorbek TV",
   "menu": [
     {
       "label": "Ўзбекистон каналлари",
@@ -24,23 +24,8 @@
       }
     },
     {
-      "label": "1000+ ТВ Каналлар (VPlay)",
-      "icon": "tv",
-      "data": "http://vplay.one"
-    },
-    {
-      "label": "Бепул ТВ ва Кино (Atodo)",
-      "icon": "movie",
-      "data": "http://atodo.xyz"
-    },
-    {
-      "label": "Жаҳон ТВ (Lampa / MSX)",
+      "label": "Янгиликлар ва Инфо",
       "icon": "public",
-      "data": "http://msxplayer.ru"
-    },
-    {
-      "label": "Тезкор Янгиликлар ва Мусиқа",
-      "icon": "music-note",
       "data": {
         "type": "list",
         "template": {
@@ -54,24 +39,138 @@
             "action": "video:https://wurl.tv"
           },
           {
-            "title": "МИР ТВ (Кино ва сериаллар)",
-            "action": "video:https://cdnvideo.ru"
-          },
-          {
             "title": "МИР 24",
             "action": "video:https://cdnvideo.ru"
           },
           {
-            "title": "Red Bull TV (Спорт)",
+            "title": "РБК ТВ",
+            "action": "video:https://cdnvideo.ru"
+          },
+          {
+            "title": "RT Д (Ҳужжатли)",
+            "action": "video:https://rttv.com"
+          },
+          {
+            "title": "DW (Deutsche Welle)",
             "action": "video:https://akamaized.net"
           },
           {
-            "title": "Bridge TV (Мусиқа)",
+            "title": "Al Jazeera English",
+            "action": "video:https://getaj.net"
+          },
+          {
+            "title": "TRT World",
+            "action": "video:https://trt.com.tr"
+          }
+        ]
+      }
+    },
+    {
+      "label": "Кино ва Сериаллар",
+      "icon": "movie",
+      "data": {
+        "type": "list",
+        "template": {
+          "type": "separate",
+          "layout": "0,0,3,3",
+          "color": "msx-glass"
+        },
+        "items": [
+          {
+            "title": "МИР ТВ",
+            "action": "video:https://cdnvideo.ru"
+          },
+          {
+            "title": "Rakuten Action Movies",
+            "action": "video:https://wurl.tv"
+          },
+          {
+            "title": "Rakuten Comedy Movies",
+            "action": "video:https://wurl.tv"
+          },
+          {
+            "title": "Rakuten Drama",
+            "action": "video:https://wurl.tv"
+          },
+          {
+            "title": "Rakuten Family",
+            "action": "video:https://wurl.tv"
+          },
+          {
+            "title": "FilmRise Action",
+            "action": "video:https://cloudfront.net"
+          }
+        ]
+      }
+    },
+    {
+      "label": "Спорт каналлари",
+      "icon": "sports-soccer",
+      "data": {
+        "type": "list",
+        "template": {
+          "type": "separate",
+          "layout": "0,0,3,3",
+          "color": "msx-glass"
+        },
+        "items": [
+          {
+            "title": "Red Bull TV",
+            "action": "video:https://akamaized.net"
+          },
+          {
+            "title": "Unbeaten Sports",
+            "action": "video:https://amagi.tv"
+          },
+          {
+            "title": "FIFA+",
+            "action": "video:https://wurl.com"
+          },
+          {
+            "title": "Trace Sport Stars",
+            "action": "video:https://amagi.tv"
+          },
+          {
+            "title": "Fuel TV (Экстрим)",
+            "action": "video:https://wurl.tv"
+          }
+        ]
+      }
+    },
+    {
+      "label": "Мусиқа ва Болалар",
+      "icon": "music-note",
+      "data": {
+        "type": "list",
+        "template": {
+          "type": "separate",
+          "layout": "0,0,3,3",
+          "color": "msx-glass"
+        },
+        "items": [
+          {
+            "title": "Bridge TV",
             "action": "video:https://cdnvideo.ru"
           },
           {
             "title": "Bridge TV Русский Хит",
             "action": "video:https://cdnvideo.ru"
+          },
+          {
+            "title": "Bridge TV Classic",
+            "action": "video:https://cdnvideo.ru"
+          },
+          {
+            "title": "Deluxe Music",
+            "action": "video:https://3qsdn.com"
+          },
+          {
+            "title": "Duck TV (Болалар)",
+            "action": "video:https://wurl.tv"
+          },
+          {
+            "title": "Lego Channel (Болалар)",
+            "action": "video:https://wurl.tv"
           }
         ]
       }
