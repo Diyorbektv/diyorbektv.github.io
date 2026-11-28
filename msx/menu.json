@@ -1,5 +1,27 @@
 {
-  "name": "Diyorbek TV",
-  "version": "1.0.0",
-  "parameter": "menu:http://ott-play.com"
+  "headline": "Diyorbek TV",
+  "menu": [
+    {
+      "label": "Ўзбекистон каналлари",
+      "icon": "live-tv",
+      "data": {
+        "type": "list",
+        "template": {
+          "type": "separate",
+          "layout": "0,0,3,3",
+          "color": "msx-glass"
+        },
+        "items": [
+          {
+            "title": "O'zbekiston",
+            "action": "video:https://cinerama.uz"
+          },
+          {
+            "title": "Toshkent",
+            "action": "video:https://cinerama.uz"
+          }
+        ]
+      }
+    }
+  ]
 }
