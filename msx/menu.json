@@ -1,9 +1,31 @@
-{
-  "headline": "Diyorbek TV",
-  "menu": [
+            "action": "video:https://cdnvideo.ru"
+          },
+          {
+            "title": "Rakuten Action (Боевик)",
+            "action": "video:https://wurl.tv"
+          },
+          {
+            "title": "Rakuten Comedy (Комедия)",
+            "action": "video:https://wurl.tv"
+          },
+          {
+            "title": "Rakuten Drama (Драма)",
+            "action": "video:https://wurl.tv"
+          },
+          {
+            "title": "Rakuten Family (Оилавий)",
+            "action": "video:https://wurl.tv"
+          },
+          {
+            "title": "FilmRise Action (АҚШ)",
+            "action": "video:https://cloudfront.net"
+          }
+        ]
+      }
+    },
     {
-      "label": "Ўзбекистон каналлари",
-      "icon": "live-tv",
+      "label": "Спорт (Жаҳон)",
+      "icon": "sports-soccer",
       "data": {
         "type": "list",
         "template": {
@@ -13,12 +35,58 @@
         },
         "items": [
           {
-            "title": "O'zbekiston",
-            "action": "video:https://stream8.cinerama.uz/1001/tracks-v1a1/playlist.m3u8"
+            "title": "Red Bull TV",
+            "action": "video:https://akamaized.net"
           },
           {
-            "title": "Toshkent",
-            "action": "video:https://stream8.cinerama.uz/1003/tracks-v1a1/playlist.m3u8"
+            "title": "FIFA+ (Футбол)",
+            "action": "video:https://wurl.com"
+          },
+          {
+            "title": "Unbeaten Sports",
+            "action": "video:https://amagi.tv"
+          },
+          {
+            "title": "Trace Sport Stars",
+            "action": "video:https://amagi.tv"
+          },
+          {
+            "title": "Fuel TV",
+            "action": "video:https://wurl.tv"
+          }
+        ]
+      }
+    },
+    {
+      "label": "Мусиқа ва Болалар",
+      "icon": "music-note",
+      "data": {
+        "type": "list",
+        "template": {
+          "type": "separate",
+          "layout": "0,0,3,3",
+          "color": "msx-glass"
+        },
+        "items": [
+          {
+            "title": "Bridge TV",
+            "action": "video:https://cdnvideo.ru"
+          },
+          {
+            "title": "Bridge TV Русский Хит",
+            "action": "video:https://cdnvideo.ru"
+          },
+          {
+            "title": "Deluxe Music (Германия)",
+            "action": "video:https://3qsdn.com"
+          },
+          {
+            "title": "Duck TV (Болалар)",
+            "action": "video:https://wurl.tv"
+          },
+          {
+            "title": "Lego Channel (Болалар)",
+            "action": "video:https://wurl.tv"
           }
         ]
       }
