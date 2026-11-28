@@ -1,0 +1,263 @@
+{
+  "headline": "Diyorbek TV (webOS TAS-IX)",
+  "menu": [
+    {
+      "icon": "live-tv",
+      "label": "Ўзбекистон ТВ (TAS-IX)",
+      "data": {
+        "pages": [
+          {
+            "template": {
+              "type": "separate",
+              "layout": "0,0,4,1",
+              "icon": "tv"
+            },
+            "items": [
+              {
+                "title": "Синема RU (TAS-IX)",
+                "action": "video:plugin:http://msx.benzac.de/plugins/html5x.html?url=http://stream8.cinerama.uz/1227/tracks-v1a1/mono.m3u8"
+              },
+              {
+                "title": "O'zbekiston 24 (TAS-IX)",
+                "action": "video:plugin:http://msx.benzac.de/plugins/html5x.html?url=http://stream8.cinerama.uz/1011/tracks-v1a1/mono.m3u8"
+              },
+              {
+                "title": "O'zbekiston Tarixi (TAS-IX)",
+                "action": "video:plugin:http://msx.benzac.de/plugins/html5x.html?url=http://stream8.cinerama.uz/1209/tracks-v1a1/mono.m3u8"
+              },
+              {
+                "title": "O'zbekiston (TAS-IX)",
+                "action": "video:plugin:http://msx.benzac.de/plugins/html5x.html?url=http://stream8.cinerama.uz/1001/tracks-v1a1/mono.m3u8"
+              },
+              {
+                "title": "Yoshlar (TAS-IX)",
+                "action": "video:plugin:http://msx.benzac.de/plugins/html5x.html?url=http://stream8.cinerama.uz/1002/tracks-v1a1/mono.m3u8"
+              },
+              {
+                "title": "Toshkent (TAS-IX)",
+                "action": "video:plugin:http://msx.benzac.de/plugins/html5x.html?url=http://stream8.cinerama.uz/1003/tracks-v1a1/mono.m3u8"
+              },
+              {
+                "title": "Sport UZ (TAS-IX)",
+                "action": "video:plugin:http://msx.benzac.de/plugins/html5x.html?url=http://stream8.cinerama.uz/1004/tracks-v1a1/mono.m3u8"
+              },
+              {
+                "title": "Madaniyat va Ma'rifat (TAS-IX)",
+                "action": "video:plugin:http://msx.benzac.de/plugins/html5x.html?url=http://stream8.cinerama.uz/1005/tracks-v1a1/mono.m3u8"
+              },
+              {
+                "title": "Dunyo Bo'ylab (TAS-IX)",
+                "action": "video:plugin:http://msx.benzac.de/plugins/html5x.html?url=http://stream8.cinerama.uz/1006/tracks-v1a1/mono.m3u8"
+              },
+              {
+                "title": "Bolajon (TAS-IX)",
+                "action": "video:plugin:http://msx.benzac.de/plugins/html5x.html?url=http://stream8.cinerama.uz/1007/tracks-v1a1/mono.m3u8"
+              },
+              {
+                "title": "Navo (TAS-IX)",
+                "action": "video:plugin:http://msx.benzac.de/plugins/html5x.html?url=http://stream8.cinerama.uz/1008/tracks-v1a1/mono.m3u8"
+              },
+              {
+                "title": "Mahalla (TAS-IX)",
+                "action": "video:plugin:http://msx.benzac.de/plugins/html5x.html?url=http://stream8.cinerama.uz/1009/tracks-v1a1/mono.m3u8"
+              },
+              {
+                "title": "Kinoteatr (TAS-IX)",
+                "action": "video:plugin:http://msx.benzac.de/plugins/html5x.html?url=http://stream8.cinerama.uz/1010/tracks-v1a1/mono.m3u8"
+              },
+              {
+                "title": "Oilaviy (TAS-IX)",
+                "action": "video:plugin:http://msx.benzac.de/plugins/html5x.html?url=http://stream8.cinerama.uz/1012/tracks-v1a1/mono.m3u8"
+              },
+              {
+                "title": "UzReport TV (TAS-IX)",
+                "action": "video:plugin:http://msx.benzac.de/plugins/html5x.html?url=http://stream8.cinerama.uz/1013/tracks-v1a1/mono.m3u8"
+              },
+              {
+                "title": "Zo'r TV (TAS-IX)",
+                "action": "video:plugin:http://msx.benzac.de/plugins/html5x.html?url=http://stream8.cinerama.uz/1014/tracks-v1a1/mono.m3u8"
+              },
+              {
+                "title": "Sevimli TV (TAS-IX)",
+                "action": "video:plugin:http://msx.benzac.de/plugins/html5x.html?url=http://stream8.cinerama.uz/1015/tracks-v1a1/mono.m3u8"
+              },
+              {
+                "title": "Milliy TV (TAS-IX)",
+                "action": "video:plugin:http://msx.benzac.de/plugins/html5x.html?url=http://stream8.cinerama.uz/1016/tracks-v1a1/mono.m3u8"
+              },
+              {
+                "title": "Futbol TV (TAS-IX)",
+                "action": "video:plugin:http://msx.benzac.de/plugins/html5x.html?url=http://stream8.cinerama.uz/1017/tracks-v1a1/mono.m3u8"
+              },
+              {
+                "title": "MY5 (TAS-IX)",
+                "action": "video:plugin:http://msx.benzac.de/plugins/html5x.html?url=http://stream8.cinerama.uz/1018/tracks-v1a1/mono.m3u8"
+              },
+              {
+                "title": "Renessans TV (TAS-IX)",
+                "action": "video:plugin:http://msx.benzac.de/plugins/html5x.html?url=http://stream8.cinerama.uz/1019/tracks-v1a1/mono.m3u8"
+              },
+              {
+                "title": "MUZ TV UZ (TAS-IX)",
+                "action": "video:plugin:http://msx.benzac.de/plugins/html5x.html?url=http://stream8.cinerama.uz/1063/tracks-v1a1/mono.m3u8"
+              },
+              {
+                "title": "Aqlvoy (TAS-IX)",
+                "action": "video:plugin:http://msx.benzac.de/plugins/html5x.html?url=http://stream8.cinerama.uz/1210/tracks-v1a1/mono.m3u8"
+              },
+              {
+                "title": "Nurafshon TV (TAS-IX)",
+                "action": "video:plugin:http://msx.benzac.de/plugins/html5x.html?url=http://stream8.cinerama.uz/1211/tracks-v1a1/mono.m3u8"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "icon": "movie",
+      "label": "Кино, Спорт ва Рус (TAS-IX)",
+      "data": {
+        "pages": [
+          {
+            "template": {
+              "type": "separate",
+              "layout": "0,0,4,1",
+              "icon": "movie"
+            },
+            "items": [
+              {
+                "title": "Синема RU (TAS-IX)",
+                "action": "video:plugin:http://msx.benzac.de/plugins/html5x.html?url=http://stream8.cinerama.uz/1227/tracks-v1a1/mono.m3u8"
+              },
+              {
+                "title": "Первый канал (TAS-IX)",
+                "action": "video:plugin:http://msx.benzac.de/plugins/html5x.html?url=http://stream8.cinerama.uz/1020/tracks-v1a1/mono.m3u8"
+              },
+              {
+                "title": "Россия 1 (TAS-IX)",
+                "action": "video:plugin:http://msx.benzac.de/plugins/html5x.html?url=http://stream8.cinerama.uz/1021/tracks-v1a1/mono.m3u8"
+              },
+              {
+                "title": "НТВ (TAS-IX)",
+                "action": "video:plugin:http://msx.benzac.de/plugins/html5x.html?url=http://stream8.cinerama.uz/1022/tracks-v1a1/mono.m3u8"
+              },
+              {
+                "title": "ТНТ (TAS-IX)",
+                "action": "video:plugin:http://msx.benzac.de/plugins/html5x.html?url=http://stream8.cinerama.uz/1023/tracks-v1a1/mono.m3u8"
+              },
+              {
+                "title": "СТС (TAS-IX)",
+                "action": "video:plugin:http://msx.benzac.de/plugins/html5x.html?url=http://stream8.cinerama.uz/1024/tracks-v1a1/mono.m3u8"
+              },
+              {
+                "title": "РЕН ТВ (TAS-IX)",
+                "action": "video:plugin:http://msx.benzac.de/plugins/html5x.html?url=http://stream8.cinerama.uz/1025/tracks-v1a1/mono.m3u8"
+              },
+              {
+                "title": "Пятница! (TAS-IX)",
+                "action": "video:plugin:http://msx.benzac.de/plugins/html5x.html?url=http://stream8.cinerama.uz/1026/tracks-v1a1/mono.m3u8"
+              },
+              {
+                "title": "ТВ-3 (TAS-IX)",
+                "action": "video:plugin:http://msx.benzac.de/plugins/html5x.html?url=http://stream8.cinerama.uz/1027/tracks-v1a1/mono.m3u8"
+              },
+              {
+                "title": "Домашний (TAS-IX)",
+                "action": "video:plugin:http://msx.benzac.de/plugins/html5x.html?url=http://stream8.cinerama.uz/1028/tracks-v1a1/mono.m3u8"
+              },
+              {
+                "title": "Матч! ТВ (TAS-IX)",
+                "action": "video:plugin:http://msx.benzac.de/plugins/html5x.html?url=http://stream8.cinerama.uz/1030/tracks-v1a1/mono.m3u8"
+              },
+              {
+                "title": "Матч! Футбол 1 (TAS-IX)",
+                "action": "video:plugin:http://msx.benzac.de/plugins/html5x.html?url=http://stream8.cinerama.uz/1031/tracks-v1a1/mono.m3u8"
+              },
+              {
+                "title": "Матч! Футбол 2 (TAS-IX)",
+                "action": "video:plugin:http://msx.benzac.de/plugins/html5x.html?url=http://stream8.cinerama.uz/1032/tracks-v1a1/mono.m3u8"
+              },
+              {
+                "title": "Матч! Футбол 3 (TAS-IX)",
+                "action": "video:plugin:http://msx.benzac.de/plugins/html5x.html?url=http://stream8.cinerama.uz/1033/tracks-v1a1/mono.m3u8"
+              },
+              {
+                "title": "Setanta Sports 1 (TAS-IX)",
+                "action": "video:plugin:http://msx.benzac.de/plugins/html5x.html?url=http://stream8.cinerama.uz/1034/tracks-v1a1/mono.m3u8"
+              },
+              {
+                "title": "Setanta Sports 2 (TAS-IX)",
+                "action": "video:plugin:http://msx.benzac.de/plugins/html5x.html?url=http://stream8.cinerama.uz/1035/tracks-v1a1/mono.m3u8"
+              },
+              {
+                "title": "Eurosport 1 (TAS-IX)",
+                "action": "video:plugin:http://msx.benzac.de/plugins/html5x.html?url=http://stream8.cinerama.uz/1036/tracks-v1a1/mono.m3u8"
+              },
+              {
+                "title": "Eurosport 2 (TAS-IX)",
+                "action": "video:plugin:http://msx.benzac.de/plugins/html5x.html?url=http://stream8.cinerama.uz/1037/tracks-v1a1/mono.m3u8"
+              },
+              {
+                "title": "Кинопремьера (TAS-IX)",
+                "action": "video:plugin:http://msx.benzac.de/plugins/html5x.html?url=http://stream8.cinerama.uz/1040/tracks-v1a1/mono.m3u8"
+              },
+              {
+                "title": "Кинохит (TAS-IX)",
+                "action": "video:plugin:http://msx.benzac.de/plugins/html5x.html?url=http://stream8.cinerama.uz/1041/tracks-v1a1/mono.m3u8"
+              },
+              {
+                "title": "Киносемья (TAS-IX)",
+                "action": "video:plugin:http://msx.benzac.de/plugins/html5x.html?url=http://stream8.cinerama.uz/1042/tracks-v1a1/mono.m3u8"
+              },
+              {
+                "title": "Киносвидание (TAS-IX)",
+                "action": "video:plugin:http://msx.benzac.de/plugins/html5x.html?url=http://stream8.cinerama.uz/1043/tracks-v1a1/mono.m3u8"
+              },
+              {
+                "title": "Кинокомедия (TAS-IX)",
+                "action": "video:plugin:http://msx.benzac.de/plugins/html5x.html?url=http://stream8.cinerama.uz/1044/tracks-v1a1/mono.m3u8"
+              },
+              {
+                "title": "Киномикс (TAS-IX)",
+                "action": "video:plugin:http://msx.benzac.de/plugins/html5x.html?url=http://stream8.cinerama.uz/1045/tracks-v1a1/mono.m3u8"
+              },
+              {
+                "title": "Мужское кино (TAS-IX)",
+                "action": "video:plugin:http://msx.benzac.de/plugins/html5x.html?url=http://stream8.cinerama.uz/1046/tracks-v1a1/mono.m3u8"
+              },
+              {
+                "title": "viju TV1000 (TAS-IX)",
+                "action": "video:plugin:http://msx.benzac.de/plugins/html5x.html?url=http://stream8.cinerama.uz/1047/tracks-v1a1/mono.m3u8"
+              },
+              {
+                "title": "viju TV1000 русское (TAS-IX)",
+                "action": "video:plugin:http://msx.benzac.de/plugins/html5x.html?url=http://stream8.cinerama.uz/1048/tracks-v1a1/mono.m3u8"
+              },
+              {
+                "title": "viju TV1000 action (TAS-IX)",
+                "action": "video:plugin:http://msx.benzac.de/plugins/html5x.html?url=http://stream8.cinerama.uz/1049/tracks-v1a1/mono.m3u8"
+              },
+              {
+                "title": "Карусель (TAS-IX)",
+                "action": "video:plugin:http://msx.benzac.de/plugins/html5x.html?url=http://stream8.cinerama.uz/1050/tracks-v1a1/mono.m3u8"
+              },
+              {
+                "title": "Мульт (TAS-IX)",
+                "action": "video:plugin:http://msx.benzac.de/plugins/html5x.html?url=http://stream8.cinerama.uz/1051/tracks-v1a1/mono.m3u8"
+              },
+              {
+                "title": "Discovery Channel (TAS-IX)",
+                "action": "video:plugin:http://msx.benzac.de/plugins/html5x.html?url=http://stream8.cinerama.uz/1055/tracks-v1a1/mono.m3u8"
+              },
+              {
+                "title": "National Geographic (TAS-IX)",
+                "action": "video:plugin:http://msx.benzac.de/plugins/html5x.html?url=http://stream8.cinerama.uz/1056/tracks-v1a1/mono.m3u8"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
