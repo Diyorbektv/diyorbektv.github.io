@@ -14,27 +14,27 @@
         "items": [
           {
             "title": "Ўзбекистон каналлари",
-            "action": "content:request:interaction:init@http://benzac.de"
+            "action": "content:request:interaction:init@https://github.io"
           },
           {
             "title": "Россия каналлари (100+)",
-            "action": "content:request:interaction:init@http://benzac.de"
+            "action": "content:request:interaction:init@https://github.io"
           },
           {
             "title": "Кино ва Сериаллар (100+)",
-            "action": "content:request:interaction:init@http://benzac.de"
+            "action": "content:request:interaction:init@https://github.io"
           },
           {
             "title": "Спорт каналлари (100+)",
-            "action": "content:request:interaction:init@http://benzac.de"
+            "action": "content:request:interaction:init@https://github.io"
           },
           {
             "title": "Болалар каналлари",
-            "action": "content:request:interaction:init@http://benzac.de"
+            "action": "content:request:interaction:init@https://github.io"
           },
           {
             "title": "Мусиқа каналлари",
-            "action": "content:request:interaction:init@http://benzac.de"
+            "action": "content:request:interaction:init@https://github.io"
           }
         ]
       }
