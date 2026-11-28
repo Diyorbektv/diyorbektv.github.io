@@ -2,7 +2,7 @@
   "headline": "Diyorbek TV",
   "menu": [
     {
-      "label": "Каналлар тўплами (1000+)",
+      "label": "Каналлар (1000+)",
       "icon": "live-tv",
       "data": {
         "type": "list",
