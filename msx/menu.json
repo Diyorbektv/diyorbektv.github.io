@@ -4,22 +4,92 @@
     {
       "label": "Ўзбекистон каналлари",
       "icon": "live-tv",
-      "data": "http://benzac.de"
-    },
-    {
-      "label": "Кино ва сериаллар",
-      "icon": "movie",
-      "data": "http://benzac.de"
-    },
-    {
-      "label": "Спорт каналлари",
-      "icon": "sports-soccer",
-      "data": "http://benzac.de"
-    },
-    {
-      "label": "Болалар каналлари",
-      "icon": "child-care",
-      "data": "http://benzac.de"
+      "data": {
+        "type": "list",
+        "template": {
+          "type": "separate",
+          "layout": "0,0,3,3",
+          "color": "msx-glass"
+        },
+        "items": [
+          {
+            "title": "O'zbekiston",
+            "action": "video:https://cinerama.uz"
+          },
+          {
+            "title": "Yoshlar",
+            "action": "video:https://cinerama.uz"
+          },
+          {
+            "title": "Toshkent",
+            "action": "video:https://cinerama.uz"
+          },
+          {
+            "title": "Sport UZ",
+            "action": "video:https://cinerama.uz"
+          },
+          {
+            "title": "Madaniyat va Ma'rifat",
+            "action": "video:https://cinerama.uz"
+          },
+          {
+            "title": "Dunyo Bo'ylab",
+            "action": "video:https://cinerama.uz"
+          },
+          {
+            "title": "Bolajon",
+            "action": "video:https://cinerama.uz"
+          },
+          {
+            "title": "Navo",
+            "action": "video:https://cinerama.uz"
+          },
+          {
+            "title": "Kinoteatr",
+            "action": "video:https://cinerama.uz"
+          },
+          {
+            "title": "O'zbekiston 24",
+            "action": "video:https://cinerama.uz"
+          },
+          {
+            "title": "Mahalla",
+            "action": "video:https://cinerama.uz"
+          },
+          {
+            "title": "Oilaviy",
+            "action": "video:https://cinerama.uz"
+          },
+          {
+            "title": "UzReport TV",
+            "action": "video:https://cinerama.uz"
+          },
+          {
+            "title": "FTV",
+            "action": "video:https://cinerama.uz"
+          },
+          {
+            "title": "Zo'r TV",
+            "action": "video:https://cinerama.uz"
+          },
+          {
+            "title": "Sevimli TV",
+            "action": "video:https://cinerama.uz"
+          },
+          {
+            "title": "Milliy TV",
+            "action": "video:https://cinerama.uz"
+          },
+          {
+            "title": "MY5 (Mening Yurtim)",
+            "action": "video:https://cinerama.uz"
+          },
+          {
+            "title": "Renessans TV",
+            "action": "video:https://cinerama.uz"
+          }
+        ]
+      }
     }
   ]
 }
