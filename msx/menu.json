@@ -1,43 +1,5 @@
 {
-  "headline": "Diyorbek TV",
-  "menu": [
-    {
-      "label": "Каналлар (1000+)",
-      "icon": "live-tv",
-      "data": {
-        "type": "list",
-        "template": {
-          "type": "separate",
-          "layout": "0,0,3,3",
-          "color": "msx-glass"
-        },
-        "items": [
-          {
-            "title": "Ўзбекистон каналлари",
-            "action": "content:request:interaction:init@http://github.io"
-          },
-          {
-            "title": "Россия каналлари (100+)",
-            "action": "content:request:interaction:init@http://github.io"
-          },
-          {
-            "title": "Кино ва Сериаллар (100+)",
-            "action": "content:request:interaction:init@http://github.io"
-          },
-          {
-            "title": "Спорт каналлари (100+)",
-            "action": "content:request:interaction:init@http://github.io"
-          },
-          {
-            "title": "Болалар каналлари",
-            "action": "content:request:interaction:init@http://github.io"
-          },
-          {
-            "title": "Мусиқа каналлари",
-            "action": "content:request:interaction:init@http://github.io"
-          }
-        ]
-      }
-    }
-  ]
+  "name": "Diyorbek TV",
+  "version": "1.0.0",
+  "parameter": "menu:http://ott-play.com"
 }
