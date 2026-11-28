@@ -1,0 +1,307 @@
+{
+  "headline": "DIYORBEK TV",
+  "background": "https://msx.benzac.de/media/background.jpg",
+  "menu": [
+    {
+      "icon": "live-tv",
+      "label": "Барча Каналлар (46)",
+      "data": {
+        "flag": "playlist",
+        "pages": [
+          {
+            "items": [
+              {
+                "layout": "0,0,6,1",
+                "title": "Синема RU (TAS-IX)",
+                "flag": "playlist",
+                "action": "video:plugin:http://msx.benzac.de/interaction/html5x.html?url=https://stream8.cinerama.uz/1227/tracks-v1a1/mono.m3u8"
+              },
+              {
+                "layout": "6,0,6,1",
+                "title": "BIZ TV (TAS-IX)",
+                "flag": "playlist",
+                "action": "video:plugin:http://msx.benzac.de/interaction/html5x.html?url=https://stream8.cinerama.uz/1211/tracks-v1a1/mono.m3u8"
+              },
+              {
+                "layout": "0,1,6,1",
+                "title": "BIZ Cinema HD",
+                "flag": "playlist",
+                "action": "video:plugin:http://msx.benzac.de/interaction/html5x.html?url=https://fl.biztv.media/cinema_720_EMfSyXgoRdiIHgldXTZICucKTIeCKO/index.m3u8"
+              },
+              {
+                "layout": "6,1,6,1",
+                "title": "BIZ Music (TAS-IX)",
+                "flag": "playlist",
+                "action": "video:plugin:http://msx.benzac.de/interaction/html5x.html?url=https://stream8.cinerama.uz/1212/tracks-v1a1/mono.m3u8"
+              },
+              {
+                "layout": "0,2,6,1",
+                "title": "Нурафшон ТВ (TAS-IX)",
+                "flag": "playlist",
+                "action": "video:plugin:http://msx.benzac.de/interaction/html5x.html?url=https://stream8.cinerama.uz/1225/tracks-v1a1/mono.m3u8"
+              },
+              {
+                "layout": "6,2,6,1",
+                "title": "Kinoteatr UZ (TAS-IX)",
+                "flag": "playlist",
+                "action": "video:plugin:http://msx.benzac.de/interaction/html5x.html?url=https://stream8.cinerama.uz/1008/tracks-v1a1/playlist.m3u8"
+              },
+              {
+                "layout": "0,3,6,1",
+                "title": "Navo TV (TAS-IX)",
+                "flag": "playlist",
+                "action": "video:plugin:http://msx.benzac.de/interaction/html5x.html?url=https://stream8.cinerama.uz/1013/tracks-v1a1/playlist.m3u8"
+              },
+              {
+                "layout": "6,3,6,1",
+                "title": "MUZ TV UZ (TAS-IX)",
+                "flag": "playlist",
+                "action": "video:plugin:http://msx.benzac.de/interaction/html5x.html?url=https://stream8.cinerama.uz/1063/tracks-v1a1/mono.m3u8"
+              },
+              {
+                "layout": "0,4,6,1",
+                "title": "Кинохит (TAS-IX)",
+                "flag": "playlist",
+                "action": "video:plugin:http://msx.benzac.de/interaction/html5x.html?url=https://stream8.cinerama.uz/1221/tracks-v1a1/mono.m3u8"
+              },
+              {
+                "layout": "6,4,6,1",
+                "title": "Кинопремьера (TAS-IX)",
+                "flag": "playlist",
+                "action": "video:plugin:http://msx.benzac.de/interaction/html5x.html?url=https://stream8.cinerama.uz/1222/tracks-v1a1/mono.m3u8"
+              },
+              {
+                "layout": "0,5,6,1",
+                "title": "Кинокомедия (TAS-IX)",
+                "flag": "playlist",
+                "action": "video:plugin:http://msx.benzac.de/interaction/html5x.html?url=https://stream8.cinerama.uz/1223/tracks-v1a1/mono.m3u8"
+              },
+              {
+                "layout": "6,5,6,1",
+                "title": "Наше новое кино (TAS-IX)",
+                "flag": "playlist",
+                "action": "video:plugin:http://msx.benzac.de/interaction/html5x.html?url=https://stream8.cinerama.uz/1224/tracks-v1a1/mono.m3u8"
+              }
+            ]
+          },
+          {
+            "items": [
+              {
+                "layout": "0,0,6,1",
+                "title": "Русский бестселлер (TAS-IX)",
+                "flag": "playlist",
+                "action": "video:plugin:http://msx.benzac.de/interaction/html5x.html?url=https://stream8.cinerama.uz/1226/tracks-v1a1/mono.m3u8"
+              },
+              {
+                "layout": "6,0,6,1",
+                "title": "Россия 24 (TAS-IX)",
+                "flag": "playlist",
+                "action": "video:plugin:http://msx.benzac.de/interaction/html5x.html?url=https://stream8.cinerama.uz/1215/tracks-v1a1/mono.m3u8"
+              },
+              {
+                "layout": "0,1,6,1",
+                "title": "РБК ТВ",
+                "flag": "playlist",
+                "action": "video:plugin:http://msx.benzac.de/interaction/html5x.html?url=https://online-video.rbc.ru/online/rbctv_480p/index.m3u8"
+              },
+              {
+                "layout": "6,1,6,1",
+                "title": "Euronews Русский",
+                "flag": "playlist",
+                "action": "video:plugin:http://msx.benzac.de/interaction/html5x.html?url=https://euronews-euronews-rus-1-ru.plex.wurl.tv/playlist.m3u8"
+              },
+              {
+                "layout": "0,2,6,1",
+                "title": "Al Jazeera English",
+                "flag": "playlist",
+                "action": "video:plugin:http://msx.benzac.de/interaction/html5x.html?url=https://live-hls-web-aje.getaj.net/AJE/index.m3u8"
+              },
+              {
+                "layout": "6,2,6,1",
+                "title": "DW Deutsch",
+                "flag": "playlist",
+                "action": "video:plugin:http://msx.benzac.de/interaction/html5x.html?url=https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8"
+              },
+              {
+                "layout": "0,3,6,1",
+                "title": "BBC News",
+                "flag": "playlist",
+                "action": "video:plugin:http://msx.benzac.de/interaction/html5x.html?url=https://d2vnbkvjbims7j.cloudfront.net/containerA/LTN/playlist.m3u8"
+              },
+              {
+                "layout": "6,3,6,1",
+                "title": "France 24 English",
+                "flag": "playlist",
+                "action": "video:plugin:http://msx.benzac.de/interaction/html5x.html?url=https://live.france24.com/hls/live/2037218/F24_EN_HI_HLS/master_5000.m3u8"
+              },
+              {
+                "layout": "0,4,6,1",
+                "title": "Наука 2.0 (TAS-IX)",
+                "flag": "playlist",
+                "action": "video:plugin:http://msx.benzac.de/interaction/html5x.html?url=https://stream8.cinerama.uz/1235/tracks-v1a1/mono.m3u8"
+              },
+              {
+                "layout": "6,4,6,1",
+                "title": "Discovery Channel (TAS-IX)",
+                "flag": "playlist",
+                "action": "video:plugin:http://msx.benzac.de/interaction/html5x.html?url=https://stream8.cinerama.uz/1231/tracks-v1a1/mono.m3u8"
+              },
+              {
+                "layout": "0,5,6,1",
+                "title": "National Geographic (TAS-IX)",
+                "flag": "playlist",
+                "action": "video:plugin:http://msx.benzac.de/interaction/html5x.html?url=https://stream8.cinerama.uz/1232/tracks-v1a1/mono.m3u8"
+              },
+              {
+                "layout": "6,5,6,1",
+                "title": "NASA TV",
+                "flag": "playlist",
+                "action": "video:plugin:http://msx.benzac.de/interaction/html5x.html?url=https://ntv1.akamaized.net/hls/live/2014075/NASA-NTV1-HLS/master.m3u8"
+              }
+            ]
+          },
+          {
+            "items": [
+              {
+                "layout": "0,0,6,1",
+                "title": "Моя Планета (TAS-IX)",
+                "flag": "playlist",
+                "action": "video:plugin:http://msx.benzac.de/interaction/html5x.html?url=https://stream8.cinerama.uz/1234/tracks-v1a1/mono.m3u8"
+              },
+              {
+                "layout": "6,0,6,1",
+                "title": "Travel+Adventure (TAS-IX)",
+                "flag": "playlist",
+                "action": "video:plugin:http://msx.benzac.de/interaction/html5x.html?url=https://stream8.cinerama.uz/1236/tracks-v1a1/mono.m3u8"
+              },
+              {
+                "layout": "0,1,6,1",
+                "title": "WildEarth Safari",
+                "flag": "playlist",
+                "action": "video:plugin:http://msx.benzac.de/interaction/html5x.html?url=https://wildearth-plex.amagi.tv/playlist.m3u8"
+              },
+              {
+                "layout": "6,1,6,1",
+                "title": "Кухня ТВ (TAS-IX)",
+                "flag": "playlist",
+                "action": "video:plugin:http://msx.benzac.de/interaction/html5x.html?url=https://stream8.cinerama.uz/1237/tracks-v1a1/mono.m3u8"
+              },
+              {
+                "layout": "0,2,6,1",
+                "title": "Еда HD (TAS-IX)",
+                "flag": "playlist",
+                "action": "video:plugin:http://msx.benzac.de/interaction/html5x.html?url=https://stream8.cinerama.uz/1238/tracks-v1a1/mono.m3u8"
+              },
+              {
+                "layout": "6,2,6,1",
+                "title": "Tastemade",
+                "flag": "playlist",
+                "action": "video:plugin:http://msx.benzac.de/interaction/html5x.html?url=https://tastemade-int16-rakuten.amagi.tv/playlist.m3u8"
+              },
+              {
+                "layout": "0,3,6,1",
+                "title": "Bon Appétit",
+                "flag": "playlist",
+                "action": "video:plugin:http://msx.benzac.de/interaction/html5x.html?url=https://bonappetit-samsung.amagi.tv/playlist.m3u8"
+              },
+              {
+                "layout": "6,3,6,1",
+                "title": "Sport UZ (TAS-IX)",
+                "flag": "playlist",
+                "action": "video:plugin:http://msx.benzac.de/interaction/html5x.html?url=https://stream8.cinerama.uz/1007/tracks-v1a1/playlist.m3u8"
+              },
+              {
+                "layout": "0,4,6,1",
+                "title": "Futbol TV (TAS-IX)",
+                "flag": "playlist",
+                "action": "video:plugin:http://msx.benzac.de/interaction/html5x.html?url=https://stream8.cinerama.uz/1018/tracks-v1a1/playlist.m3u8"
+              },
+              {
+                "layout": "6,4,6,1",
+                "title": "Eurosport 1 (TAS-IX)",
+                "flag": "playlist",
+                "action": "video:plugin:http://msx.benzac.de/interaction/html5x.html?url=https://stream8.cinerama.uz/1205/tracks-v1a1/mono.m3u8"
+              },
+              {
+                "layout": "0,5,6,1",
+                "title": "Eurosport 2 (TAS-IX)",
+                "flag": "playlist",
+                "action": "video:plugin:http://msx.benzac.de/interaction/html5x.html?url=https://stream8.cinerama.uz/1206/tracks-v1a1/mono.m3u8"
+              },
+              {
+                "layout": "6,5,6,1",
+                "title": "Setanta Sports 1 (TAS-IX)",
+                "flag": "playlist",
+                "action": "video:plugin:http://msx.benzac.de/interaction/html5x.html?url=https://stream8.cinerama.uz/1207/tracks-v1a1/mono.m3u8"
+              }
+            ]
+          },
+          {
+            "items": [
+              {
+                "layout": "0,0,6,1",
+                "title": "Makkah TV (Макка 24/7)",
+                "flag": "playlist",
+                "action": "video:plugin:http://msx.benzac.de/interaction/html5x.html?url=https://win.holol.com/live/quran/playlist.m3u8"
+              },
+              {
+                "layout": "6,0,6,1",
+                "title": "Madinah TV (Мадина 24/7)",
+                "flag": "playlist",
+                "action": "video:plugin:http://msx.benzac.de/interaction/html5x.html?url=https://win.holol.com/live/sunnah/playlist.m3u8"
+              },
+              {
+                "layout": "0,1,6,1",
+                "title": "B4U Movies (Ҳинд)",
+                "flag": "playlist",
+                "action": "video:plugin:http://msx.benzac.de/interaction/html5x.html?url=https://cdnb4u.wiseplayout.com/B4U_Movies/master.m3u8"
+              },
+              {
+                "layout": "6,1,6,1",
+                "title": "B4U Music (Ҳинд)",
+                "flag": "playlist",
+                "action": "video:plugin:http://msx.benzac.de/interaction/html5x.html?url=https://cdnb4u.wiseplayout.com/B4U_Music/master.m3u8"
+              },
+              {
+                "layout": "0,2,6,1",
+                "title": "CGTN Русский (Хитой)",
+                "flag": "playlist",
+                "action": "video:plugin:http://msx.benzac.de/interaction/html5x.html?url=https://news.cgtn.com/resource/live/russian/cgtn-r.m3u8"
+              },
+              {
+                "layout": "6,2,6,1",
+                "title": "CCTV-4 (Хитой)",
+                "flag": "playlist",
+                "action": "video:plugin:http://msx.benzac.de/interaction/html5x.html?url=https://hls.cntv.myhwcdn.cn/asp/hls/main/0303000a/3/default/7822211245644221a1e0449565632221/main.m3u8"
+              },
+              {
+                "layout": "0,3,6,1",
+                "title": "ARTE (Европа)",
+                "flag": "playlist",
+                "action": "video:plugin:http://msx.benzac.de/interaction/html5x.html?url=https://artesimulcast.akamaized.net/hls/live/2031003/artelive_de/index.m3u8"
+              },
+              {
+                "layout": "6,3,6,1",
+                "title": "Bloomberg TV (АҚШ)",
+                "flag": "playlist",
+                "action": "video:plugin:http://msx.benzac.de/interaction/html5x.html?url=https://bloomberg.com/media-manifest/streams/us.m3u8"
+              },
+              {
+                "layout": "0,4,6,1",
+                "title": "CBS News (АҚШ)",
+                "flag": "playlist",
+                "action": "video:plugin:http://msx.benzac.de/interaction/html5x.html?url=https://cbsn-us.cbsnstream.cbsnews.com/out/v1/55a8648e8f134e82a470f83d562deeca/master.m3u8"
+              },
+              {
+                "layout": "6,4,6,1",
+                "title": "NHK World (Япония)",
+                "flag": "playlist",
+                "action": "video:plugin:http://msx.benzac.de/interaction/html5x.html?url=https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
