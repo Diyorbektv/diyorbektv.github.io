@@ -1,5 +1,5 @@
 {
   "name": "Diyorbek TV",
   "version": "1.0.0",
-  "parameter": "menu:https://diyorbektv.github.io/msx/menu.json"
+  "parameter": "menu:http://ott-play.com/f/msx.json"
 }
