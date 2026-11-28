@@ -1,42 +1,25 @@
 {
   "headline": "Diyorbek TV",
-  "template": {
-    "type": "separate",
-    "layout": "0,0,2,2",
-    "icon": "live-tv"
-  },
-  "items": [
+  "menu": [
     {
-      "title": "Тест Эфир (HD)",
-      "action": "video:https://mux.dev"
+      "label": "Ўзбекистон каналлари",
+      "icon": "live-tv",
+      "data": "http://benzac.de"
     },
     {
-      "title": "O'zbekiston",
-      "action": "video:https://cinerama.uz"
+      "label": "Кино ва сериаллар",
+      "icon": "movie",
+      "data": "http://benzac.de"
     },
     {
-      "title": "Yoshlar",
-      "action": "video:https://cinerama.uz"
+      "label": "Спорт каналлари",
+      "icon": "sports-soccer",
+      "data": "http://benzac.de"
     },
     {
-      "title": "Milliy TV",
-      "action": "video:https://cinerama.uz"
-    },
-    {
-      "title": "Zo'r TV",
-      "action": "video:https://cinerama.uz"
-    },
-    {
-      "title": "Sevimli TV",
-      "action": "video:https://cinerama.uz"
-    },
-    {
-      "title": "Sport UZ",
-      "action": "video:https://cinerama.uz"
-    },
-    {
-      "title": "Барча каналлар (Веб-саҳифа)",
-      "action": "link:https://github.io"
+      "label": "Болалар каналлари",
+      "icon": "child-care",
+      "data": "http://benzac.de"
     }
   ]
 }
