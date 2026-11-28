@@ -1,3 +1,83 @@
+{
+  "headline": "Diyorbek TV",
+  "menu": [
+    {
+      "label": "Ўзбекистон каналлари",
+      "icon": "live-tv",
+      "data": {
+        "type": "list",
+        "template": {
+          "type": "separate",
+          "layout": "0,0,3,3",
+          "color": "msx-glass"
+        },
+        "items": [
+          {
+            "title": "O'zbekiston",
+            "action": "video:https://cinerama.uz"
+          },
+          {
+            "title": "Toshkent",
+            "action": "video:https://cinerama.uz"
+          }
+        ]
+      }
+    },
+    {
+      "label": "Янгиликлар (Жаҳон)",
+      "icon": "public",
+      "data": {
+        "type": "list",
+        "template": {
+          "type": "separate",
+          "layout": "0,0,3,3",
+          "color": "msx-glass"
+        },
+        "items": [
+          {
+            "title": "Euronews Русский",
+            "action": "video:https://wurl.tv"
+          },
+          {
+            "title": "МИР 24 (Россия/МДҲ)",
+            "action": "video:https://cdnvideo.ru"
+          },
+          {
+            "title": "DW (Германия)",
+            "action": "video:https://akamaized.net"
+          },
+          {
+            "title": "Al Jazeera (Қатар)",
+            "action": "video:https://getaj.net"
+          },
+          {
+            "title": "TRT World (Туркия)",
+            "action": "video:https://trt.com.tr"
+          },
+          {
+            "title": "France 24 (Франция)",
+            "action": "video:https://france24.com"
+          },
+          {
+            "title": "NHK World (Япония)",
+            "action": "video:https://akamaized.net"
+          }
+        ]
+      }
+    },
+    {
+      "label": "Кино ва Сериаллар",
+      "icon": "movie",
+      "data": {
+        "type": "list",
+        "template": {
+          "type": "separate",
+          "layout": "0,0,3,3",
+          "color": "msx-glass"
+        },
+        "items": [
+          {
+            "title": "МИР ТВ (Кино)",
             "action": "video:https://cdnvideo.ru"
           },
           {
