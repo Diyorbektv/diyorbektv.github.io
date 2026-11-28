@@ -1,0 +1,93 @@
+#EXTM3U
+#EXTINF:-1 group-title="Узбекистон ва Кино",Синема RU (TAS-IX)
+https://stream8.cinerama.uz/1227/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Узбекистон ва Кино",BIZ TV (TAS-IX)
+https://stream8.cinerama.uz/1211/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Узбекистон ва Кино",BIZ Cinema HD
+https://fl.biztv.media/cinema_720_EMfSyXgoRdiIHgldXTZICucKTIeCKO/index.m3u8
+#EXTINF:-1 group-title="Узбекистон ва Кино",BIZ Music (TAS-IX)
+https://stream8.cinerama.uz/1212/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Узбекистон ва Кино",Нурафшон ТВ (TAS-IX)
+https://stream8.cinerama.uz/1210/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Узбекистон ва Кино",Kinoteatr UZ (TAS-IX)
+https://stream8.cinerama.uz/1017/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Узбекистон ва Кино",Navo TV (Концерт)
+https://stream8.cinerama.uz/1021/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Узбекистон ва Кино",MUZ TV UZ (Концерт)
+https://stream8.cinerama.uz/1063/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Рус Кино",Кинохит
+https://stream8.cinerama.uz/1101/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Рус Кино",Кинопремьера
+https://stream8.cinerama.uz/1102/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Рус Кино",Кинокомедия
+https://stream8.cinerama.uz/1103/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Рус Кино",Наше новое кино
+https://stream8.cinerama.uz/1105/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Рус Кино",Русский бестселлер
+https://stream8.cinerama.uz/1112/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Янгиликлар",Россия 24
+https://stream8.cinerama.uz/1076/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Янгиликлар",РБК ТВ
+https://online-video.rbc.ru/online/rbctv_480p/index.m3u8
+#EXTINF:-1 group-title="Янгиликлар",Euronews Русский
+https://rakuten-euronews-1-ru.samsung.wurl.tv/playlist.m3u8
+#EXTINF:-1 group-title="Янгиликлар",Al Jazeera English
+https://live-hls-web-aje.getaj.net/AJE/01.m3u8
+#EXTINF:-1 group-title="Янгиликлар",DW English
+https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
+#EXTINF:-1 group-title="Янгиликлар",BBC News
+https://vs-hls-push-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8
+#EXTINF:-1 group-title="Янгиликлар",France 24
+https://amg00106-france24-france24-samsunguk-qvpp8.amagi.tv/playlist/amg00106-france24-france24-samsunguk/playlist.m3u8
+#EXTINF:-1 group-title="Наука ва Саёхат",Наука 2.0
+https://stream8.cinerama.uz/1140/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Наука ва Саёхат",Discovery Channel
+https://stream8.cinerama.uz/1131/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Наука ва Саёхат",National Geographic
+https://stream8.cinerama.uz/1132/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Наука ва Саёхат",NASA TV
+https://ntv1.akamaized.net/hls/live/2014075/NASA-NTV1-HLS/master.m3u8
+#EXTINF:-1 group-title="Наука ва Саёхат",Моя Планета
+https://stream8.cinerama.uz/1138/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Наука ва Саёхат",Travel+Adventure
+https://stream8.cinerama.uz/1142/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Наука ва Саёхат",WildEarth Safari
+https://wildearth-samsungau.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="Ошхона",Кухня ТВ
+https://stream8.cinerama.uz/1145/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Ошхона",Еда HD
+https://stream8.cinerama.uz/1146/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Ошхона",Tastemade
+https://tastemade-int16-samsung.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="Ошхона",Bon Appetit
+https://bonappetit-samsung.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="Спорт",Sport UZ (TAS-IX)
+https://stream8.cinerama.uz/1016/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Спорт",Futbol TV (TAS-IX)
+https://stream8.cinerama.uz/1025/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Спорт",Eurosport 1
+https://stream8.cinerama.uz/1120/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Спорт",Eurosport 2
+https://stream8.cinerama.uz/1121/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Спорт",Setanta Sports 1
+https://stream8.cinerama.uz/1124/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Дунё Давлатлари",Makkah TV (Макка 24/7 Прямой)
+https://win.holol.com/live/quran/playlist.m3u8
+#EXTINF:-1 group-title="Дунё Давлатлари",Madinah TV (Мадина 24/7 Прямой)
+https://win.holol.com/live/sunnah/playlist.m3u8
+#EXTINF:-1 group-title="Дунё Давлатлари",B4U Movies (Хинд)
+https://cdnb4u.wiseplayout.com/B4U_Movies/master.m3u8
+#EXTINF:-1 group-title="Дунё Давлатлари",B4U Music (Хинд)
+https://cdnb4u.wiseplayout.com/B4U_Music/master.m3u8
+#EXTINF:-1 group-title="Дунё Давлатлари",CGTN Русский (Хитой)
+https://live-rus.cgtn.com/1000r/prog_index.m3u8
+#EXTINF:-1 group-title="Дунё Давлатлари",CCTV-4 (Хитой)
+https://cctv4-hls.akamaized.net/hls/live/2018508/cctv4/master.m3u8
+#EXTINF:-1 group-title="Дунё Давлатлари",ARTE (Европа)
+https://artesimulcast.akamaized.net/hls/live/2031003/artelive_de/index.m3u8
+#EXTINF:-1 group-title="Дунё Давлатлари",Bloomberg TV (Америка)
+https://bloomberg.com/media-manifest/streams/phoenix-us.m3u8
+#EXTINF:-1 group-title="Дунё Давлатлари",CBS News (Америка)
+https://cbsn-us.cbsnstream.cbsnews.com/out/v1/55a8648e8f134e82a470f83d562deeca/master.m3u8
+#EXTINF:-1 group-title="Дунё Давлатлари",NHK World (Япония)
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
